@@ -3,7 +3,7 @@
 An independent RimWorld 1.7 compatibility patch for [HugsLib](https://github.com/UnlimitedHugs/RimworldHugsLib) 12.0.0.
 
 - In-game title: **HugsLib - 1.7 Waylith Fix (Continued)**
-- Package ID: `UnlimitedHugs.HugsLib` (retained for dependency compatibility)
+- Package ID: `worldleader.hugslib`
 
 ## Fix
 
@@ -22,6 +22,8 @@ dotnet build HugsLib.1.7.Fix.csproj -c Release
 ```
 
 The `v1.7/Assemblies` directory contains the upstream HugsLib 12.0.0 assembly and the separate `HugsLib.1.7.Fix.dll` compatibility patch.
+
+This edition uses an independent package ID. Mods that explicitly depend on `UnlimitedHugs.HugsLib` may report a missing dependency until their metadata is updated to `worldleader.hugslib`.
 
 ## Credits and licensing
 
