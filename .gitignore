@@ -3,5 +3,7 @@
 .vs/
 .vscode/
 Source/
+BuildSupport/OriginalBinaries/
+BuildSupport/PatchedBinaries/
 *.user
 *.suo
