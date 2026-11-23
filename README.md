@@ -2,6 +2,9 @@
 
 An independent RimWorld 1.7 compatibility patch for [HugsLib](https://github.com/UnlimitedHugs/RimworldHugsLib) 12.0.0.
 
+- In-game title: **HugsLib - 1.7 Waylith Fix (Continued)**
+- Package ID: `UnlimitedHugs.HugsLib` (retained for dependency compatibility)
+
 ## Fix
 
 Waylith stores the current log at `Logs/Player.log` below RimWorld's persistent data directory. HugsLib 12.0.0 only checked the former root-level `Player.log`, so **Open log file** and log publishing could fail with `FileNotFoundException`.
