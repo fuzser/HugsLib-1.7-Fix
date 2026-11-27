@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>HugsLib - 1.7 Waylith Fix (Continued)</name>
+	<name>HugsLib - 1.7 Waylith Fix (Continued) — Original by UnlimitedHugs</name>
 	<author>WorldLeader</author>
 	<supportedVersions>
 		<li>1.0</li>
@@ -18,7 +18,11 @@
 
 This independent continued edition uses its own package ID and includes a dedicated RimWorld 1.7 Waylith fix: opening or publishing the log now falls back to Logs/Player.log when the former root-level Player.log path does not exist.
 
+Do not enable this edition together with the original HugsLib. Mods that still declare UnlimitedHugs.HugsLib as a dependency may show a missing dependency warning and must update their dependency package ID.
+
 Version: 12.0.0 + RimWorld 1.7 compatibility patch.
+
+Original author: UnlimitedHugs.
 
 HugsLib 是许多 RimWorld Mod 使用的共享前置库。
 
@@ -26,7 +30,8 @@ HugsLib 是许多 RimWorld Mod 使用的共享前置库。
 
 请勿与原版 HugsLib 同时启用。仍声明依赖 UnlimitedHugs.HugsLib 的 Mod 可能显示缺少前置警告，需要相应更新依赖包 ID。
 
-Original author: UnlimitedHugs.
+版本：12.0.0 + RimWorld 1.7 兼容补丁。
+
 原作者：UnlimitedHugs。
 	</description>
 	<modIconPath IgnoreIfNoMatchingField="True">HLModIcon</modIconPath>

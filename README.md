@@ -2,7 +2,7 @@
 
 An independent RimWorld 1.7 compatibility patch for [HugsLib](https://github.com/UnlimitedHugs/RimworldHugsLib) 12.0.0.
 
-- In-game title: **HugsLib - 1.7 Waylith Fix (Continued)**
+- In-game title: **HugsLib - 1.7 Waylith Fix (Continued) — Original by UnlimitedHugs**
 - Package ID: `worldleader.hugslib`
 - Maintainer: **WorldLeader**
 
